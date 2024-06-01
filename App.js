@@ -21,8 +21,8 @@ const HomeScreen = ({ navigation }) => {
       // Step 1: Prepare request parameters
       const requestParams = {
         command: 'AUTHORIZATION',
-        access_code: 'WDcLfXauXZOB45rFtedL',
-        merchant_identifier: 'VGbcpfWr',
+        access_code: 'Your_Access_Code',
+        merchant_identifier: 'Your_merchant_identifier',
         merchant_reference: cleanedMerchantReference,
         amount: amount,
         currency: 'USD',
